@@ -1,0 +1,374 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_amountGood",
+				"type": "uint256"
+			}
+		],
+		"name": "add_amount_of_good",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_nameFirmBuy",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_addressFirmBuy",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_phoneNumberBuy",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "owner_buyer",
+				"type": "address"
+			}
+		],
+		"name": "add_Buyer",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_amountSellGoods",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_idBuyer",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_idSeller",
+				"type": "string"
+			}
+		],
+		"name": "add_deals",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_idGood",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_nameFirm",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_nameGoods",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_units",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_valueBuy",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_valueSell",
+				"type": "uint256"
+			}
+		],
+		"name": "add_Good",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_idGood",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_nameFirm",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_addressFirm",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_phoneNumber",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "owner_provider",
+				"type": "address"
+			}
+		],
+		"name": "add_Provider",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_removeGood",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "toShop",
+				"type": "address"
+			}
+		],
+		"name": "buy_good",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_removeGood",
+				"type": "uint256"
+			}
+		],
+		"name": "remove_amount_of_good",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "admin",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "buyers",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "adrBuyer",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "nameFirmBuy",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "addressFirmBuy",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "phoneNumberBuy",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "get_deal_num",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "get_goods_num",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "goods",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "nameFirm",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "nameGoods",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "units",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "valueBuy",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "valueSell",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "providers",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "adrProv",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "nameFirmSell",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "addressFirmSell",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "phoneNumberSell",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
